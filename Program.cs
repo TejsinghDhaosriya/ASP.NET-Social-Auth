@@ -40,7 +40,12 @@ builder.Services
 
             return Task.CompletedTask;
         };
-    });
+    })
+    .AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = "835550575786-ja30eeab6nvt46or5d7almlsg4efphrp.apps.googleusercontent.com";
+    googleOptions.ClientSecret = "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";
+});
 
 var app = builder.Build();
 

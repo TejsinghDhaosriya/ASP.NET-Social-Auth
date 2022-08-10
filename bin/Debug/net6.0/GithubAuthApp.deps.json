@@ -9,6 +9,7 @@
       "GithubAuthApp/1.0.0": {
         "dependencies": {
           "AspNet.Security.OAuth.GitHub": "6.0.6",
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.8",
           "Octokit": "2.0.0"
         },
         "runtime": {
@@ -20,6 +21,14 @@
           "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {
             "assemblyVersion": "6.0.6.0",
             "fileVersion": "6.0.622.22058"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.8.0",
+            "fileVersion": "6.0.822.36316"
           }
         }
       },
@@ -45,6 +54,13 @@
       "sha512": "sha512-UrFvT5ockU475bU6+aIUNhY+tM+1pJYU7eIPGJai1go8JNFXQCjsoqyhKkUwN5rmtOzVjjUEUPyctouz4HGVZg==",
       "path": "aspnet.security.oauth.github/6.0.6",
       "hashPath": "aspnet.security.oauth.github.6.0.6.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LncCnqtKYQspPgFUFa+iNCAF4G3cRP11wXqNvGKobZbVQBVoFyerutD2OaXoWUHakbt4H6SoVWsIc5HB5wvzZQ==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.8.nupkg.sha512"
     },
     "Octokit/2.0.0": {
       "type": "package",

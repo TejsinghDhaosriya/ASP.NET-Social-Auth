@@ -14,6 +14,18 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Octokit/2.0.0": {
         "type": "package",
         "compile": {
@@ -40,6 +52,21 @@
         "lib/net6.0/AspNet.Security.OAuth.GitHub.xml"
       ]
     },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+      "sha512": "LncCnqtKYQspPgFUFa+iNCAF4G3cRP11wXqNvGKobZbVQBVoFyerutD2OaXoWUHakbt4H6SoVWsIc5HB5wvzZQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.6.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
+      ]
+    },
     "Octokit/2.0.0": {
       "sha512": "J6Z7HlYizLGivSsVesd4QgNysGJdwd3Z0hU0jkUaY9yCUSYitk87VJi2558MuXn3laRZfY1vaTod1nKqkg3W5w==",
       "type": "package",
@@ -58,6 +85,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AspNet.Security.OAuth.GitHub >= 6.0.6",
+      "Microsoft.AspNetCore.Authentication.Google >= 6.0.8",
       "Octokit >= 2.0.0"
     ]
   },
@@ -103,6 +131,10 @@
           "AspNet.Security.OAuth.GitHub": {
             "target": "Package",
             "version": "[6.0.6, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[6.0.8, )"
           },
           "Octokit": {
             "target": "Package",
