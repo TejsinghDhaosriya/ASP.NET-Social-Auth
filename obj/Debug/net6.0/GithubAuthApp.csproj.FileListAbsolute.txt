@@ -27,3 +27,4 @@ C:\Users\tej\workArea\SocialAuth\GithubAuthApp\obj\Debug\net6.0\ref\GithubAuthAp
 C:\Users\tej\workArea\SocialAuth\GithubAuthApp\bin\Debug\net6.0\AspNet.Security.OAuth.GitHub.dll
 C:\Users\tej\workArea\SocialAuth\GithubAuthApp\bin\Debug\net6.0\Octokit.dll
 C:\Users\tej\workArea\SocialAuth\GithubAuthApp\obj\Debug\net6.0\GithubAuthApp.csproj.CopyComplete
+C:\Users\tej\workArea\SocialAuth\GithubAuthApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
