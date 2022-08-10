@@ -6,7 +6,7 @@ using Octokit;
 
 namespace GithubAuthApp.Pages
 {
-    [Authorize]
+    [Authorize(AuthenticationSchemes = "GitHub")]
     public class Account : PageModel
     {
         public async Task OnGet()
