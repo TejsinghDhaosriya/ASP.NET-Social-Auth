@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pxdtmEsqTYFZv3jUQmYThD9SfTaFAGHhwLCAA45tIcZanbBnYLfoN9Fxa3JaMZ0vNl8x3rZMFBLZ5LwAqRI6bg==",
+  "dgSpecHash": "kCfEGWSI0BuAC5y84i2B2RzxUopL19GOWhTlCNsHdl6itZXDmhu8o2U+dlBgHsLGzxSnLUAufRZ9jnmrpKqT2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\tej\\workArea\\SocialAuth\\GithubAuthApp\\GithubAuthApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tej\\.nuget\\packages\\aspnet.security.oauth.github\\6.0.6\\aspnet.security.oauth.github.6.0.6.nupkg.sha512",
+    "C:\\Users\\tej\\.nuget\\packages\\octokit\\2.0.0\\octokit.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
