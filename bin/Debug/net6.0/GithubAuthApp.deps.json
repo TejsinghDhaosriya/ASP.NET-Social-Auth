@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GithubAuthApp/1.0.0": {
+        "dependencies": {
+          "AspNet.Security.OAuth.GitHub": "6.0.6",
+          "Octokit": "2.0.0"
+        },
+        "runtime": {
+          "GithubAuthApp.dll": {}
+        }
+      },
+      "AspNet.Security.OAuth.GitHub/6.0.6": {
+        "runtime": {
+          "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {
+            "assemblyVersion": "6.0.6.0",
+            "fileVersion": "6.0.622.22058"
+          }
+        }
+      },
+      "Octokit/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GithubAuthApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AspNet.Security.OAuth.GitHub/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UrFvT5ockU475bU6+aIUNhY+tM+1pJYU7eIPGJai1go8JNFXQCjsoqyhKkUwN5rmtOzVjjUEUPyctouz4HGVZg==",
+      "path": "aspnet.security.oauth.github/6.0.6",
+      "hashPath": "aspnet.security.oauth.github.6.0.6.nupkg.sha512"
+    },
+    "Octokit/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J6Z7HlYizLGivSsVesd4QgNysGJdwd3Z0hU0jkUaY9yCUSYitk87VJi2558MuXn3laRZfY1vaTod1nKqkg3W5w==",
+      "path": "octokit/2.0.0",
+      "hashPath": "octokit.2.0.0.nupkg.sha512"
+    }
+  }
+}
